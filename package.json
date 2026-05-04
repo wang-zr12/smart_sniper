@@ -1,0 +1,24 @@
+{
+  "name": "smart-sniper",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "description": "Local MVP implementation scaffold for Smart Sniper v0.4 docs.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node packages/server/api/server.js",
+    "test": "node tests/core.test.js",
+    "lint:policy": "node tools/lint-guards/check-source-policy.js",
+    "verify": "node tools/lint-guards/check-source-policy.js && node tests/core.test.js"
+  },
+  "workspaces": [
+    "packages/*",
+    "packages/core/*",
+    "packages/server/*",
+    "packages/server/order-shared/*",
+    "packages/adapters/*",
+    "packages/vault/*"
+  ]
+}

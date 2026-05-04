@@ -1,0 +1,7 @@
+packages:
+  - "packages/*"
+  - "packages/core/*"
+  - "packages/server/*"
+  - "packages/server/order-shared/*"
+  - "packages/adapters/*"
+  - "packages/vault/*"
