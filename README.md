@@ -1,7 +1,5 @@
 # Smart Sniper
 
-Local MVP code generated from `docs/` v0.5. See [`PLAN.md`](PLAN.md) for the consolidated milestone plan post-review.
-
 This repository is intentionally zero-dependency for the first runnable scaffold because the current machine exposes Node but no package manager. It keeps the package boundaries and interfaces from the spec, and implements the core behaviors with Node built-ins:
 
 - domain types and error metadata
